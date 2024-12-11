@@ -20,7 +20,7 @@ public class CalculatorTest {
     @Test
     public void testMultiplication() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 24", 24, test.multiplication(8,3));
+        Assert.assertEquals("The output should be 27", 27, test.multiplication(9,3));
     }
 
     @Test
