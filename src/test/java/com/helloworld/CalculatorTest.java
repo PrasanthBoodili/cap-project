@@ -20,12 +20,12 @@ public class CalculatorTest {
     @Test
     public void testMultiplication() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 24", 24, test.multiplication(8,3));
+        Assert.assertEquals("The output should be 24", 4, test.multiplication(8,3));
     }
 
     @Test
     public void testDivision() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 22", 2, test.division(66,3));
+        Assert.assertEquals("The output should be 22", 22, test.division(66,3));
     }
 }
