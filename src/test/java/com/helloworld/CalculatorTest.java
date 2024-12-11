@@ -26,6 +26,6 @@ public class CalculatorTest {
     @Test
     public void testDivision() {
         Calculator test = new Calculator();
-        Assert.assertEquals("The output should be 2", 22, test.division(66,3));
+        Assert.assertEquals("The output should be 22", 2, test.division(66,3));
     }
 }
